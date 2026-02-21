@@ -51,7 +51,7 @@ REST API reactiva para gestión de franquicias, sucursales y productos. Desarrol
 ```bash
 # Clonar el repositorio
 git clone https://github.com/tu-usuario/franchise-api.git
-cd franchise-api
+cd Backend--Accenture
 
 # Levantar todo (MySQL + App)
 docker-compose up --build
@@ -95,7 +95,7 @@ cp .env.example .env
 ```bash
 curl -X POST http://localhost:8080/api/franchises \
   -H "Content-Type: application/json" \
-  -d '{"name": "McDonald'\''s"}'
+  -d '{"name": "Monald'\''s"}'
 ```
 
 ### Agregar sucursal
@@ -163,7 +163,7 @@ La base de datos en Railway se puede aprovisionar automáticamente con Terraform
 ### Pasos
 
 ```bash
-cd terraform
+ terraform
 
 # Copia el archivo de variables
 cp terraform.tfvars.example terraform.tfvars
