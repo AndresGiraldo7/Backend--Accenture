@@ -50,14 +50,14 @@ REST API reactiva para gestión de franquicias, sucursales y productos. Desarrol
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/tu-usuario/franchise-api.git
+git clone https://github.com/AndresGiraldo7/Backend--Accenture.git
 cd Backend--Accenture
 
 # Levantar todo (MySQL + App)
 docker-compose up --build
 ```
 
-La API estará disponible en `http://localhost:8080`
+La API estará disponible en `http://localhost:8081`
 
 ### Opción 2 — Maven local (requiere MySQL corriendo)
 
