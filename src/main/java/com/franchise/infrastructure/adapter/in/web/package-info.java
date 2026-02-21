@@ -1,0 +1,1 @@
+package com.franchise.infrastructure.adapter.in.web;

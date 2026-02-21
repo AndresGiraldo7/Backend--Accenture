@@ -1,0 +1,6 @@
+# Copia este archivo como terraform.tfvars y completa los valores
+# NUNCA subas terraform.tfvars a Git (ya está en .gitignore)
+
+railway_token = "your-railway-api-token-here"
+db_password   = "your-secure-password"
+db_name       = "railway"
