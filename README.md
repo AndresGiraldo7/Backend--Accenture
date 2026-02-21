@@ -62,9 +62,6 @@ La API estará disponible en `http://localhost:8081`
 ### Opción 2 — Maven local (requiere MySQL corriendo)
 
 ```bash
-# Configurar variables de entorno
-cp .env.example .env
-# Editar .env con tus valores
 
 # Correr
 ./mvnw spring-boot:run
